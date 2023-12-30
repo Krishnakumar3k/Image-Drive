@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ImageDrive</title>
+    <!-- link css -->
+    <link rel="stylesheet" href="./CSS/style.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+        crossorigin="anonymous">
+        <!-- sweet alert -->
+        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+    <!-- Start Navbar Design -->
+    <nav class="navbar navbar-expand-lg fixed-top bg-light">
+        <div class="container-fluid">
+            <img src="./img/user.jpg" class="rounded-circle mx-2" width="40" height="40" alt="">
+            <a href="#" class="navbar-brand">ImageDrive</a>
+             <!-- Toggle button -->
+             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#myNavbar"
+             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+             <span class="navbar-toggler-icon"><i class="fa-solid fa-bars"></i></span>
+             </button> 
+            
+         <div class="navbar-collapse collapse" id="myNavbar">
+                <ul class="navbar-nav w-100 justify-content-end">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="https://sdekrishna.netlify.app/" class="nav-link">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="btn">Create Account</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- End Navbar Code -->
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-6">
+                <ul class="nav nav-tabs mt-3">
+                    <li class="nav-item">
+                        <a href="#signup" data-bs-toggle="tab" class="nav-link active">Signup</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#login" data-bs-toggle="tab" class="nav-link">Login</a>
+                    </li>
+                </ul>
+                <!-- nav panes/body -->
+                <div class="tab-content">
+                    <div class="tab-pane mt-2 active" id="signup">
+                        <img src="./img/sign-up.png" class="w-25" alt="">
+                        <form class="signup-form">
+                            <!-- ... (form fields) ... -->
+                            <input type="text" placeholder="First Name"class="form-control mt-2">
+                            <input type="text" placeholder="Last Name" class="form-control mt-2" >
+                            <input type="text" placeholder="User Name" class="form-control mt-2" >
+                            <input type="text" placeholder="Password"  class="form-control mt-2" >
+                            <input type="number" placeholder="Mobile"    class="form-control mt-2" >
+                            <div align="end">
+                                <button class="btn mt-3 text-white">Register</button>
+
+                            </div>
+                        </form>
+                    </div>
+                    <div class="tab-pane mt-2" id="login">
+                        <img src="./img/admin login.png" class="w-25" alt="">
+                        <form class="login-form" action="">
+                            <!-- ... (form fields) ... -->
+                            <input type="text" placeholder="User Name"class="form-control mt-2">
+                            <input type="password" placeholder="Password" class="form-control mt-2" >     
+                            <div align="end">
+                                <button class="btn mt-3 text-white">Login</button>
+
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <img src="./img/bgicon.png" class="w-100 mt-3" alt="">
+            </div>
+        </div>
+    </div>
+
+    <!-- js Link -->
+    <script src="./JS/index.js"></script>
+    <!-- bootstrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

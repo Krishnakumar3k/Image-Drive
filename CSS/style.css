@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz@8..144&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Start NavBar Code */
+.navbar {
+    background-image: linear-gradient(#060709, #434556);
+}
+
+.navbar a {
+    color: white;
+    font-size: 17px;
+    font-family: 'Roboto Serif', serif;
+}
+
+.navbar a:hover {
+    color: orangered;
+}
+
+.btn {
+    background-image: linear-gradient(#060709, #434556);
+    border: none;
+    width: 200px;
+    font-size: 22px !important;
+}
+
+span i {
+    color: white;
+    font-size: 30px;
+}
+
+/* End NavBar Code */
+
+/* main page code */
+.form-control {
+    box-shadow: none !important;
+    color: #000; /* Set the text color for form fields */
+}
+
+.nav-tabs .nav-link.active {
+    background-image: linear-gradient(#090609, #6a3074);
+    color: #fff !important;
+    font-family: 'Roboto Serif', serif;
+}
